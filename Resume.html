@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <!-- (0px>=width<=673) -->
+<head>
+    <title></title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style> 
+    .main-content {
+            display: grid;
+            grid-template-columns: 300px 700px;
+            min-height: 1000px;
+            width: 90%;
+            margin: 20px auto;
+        }
+         @media only screen and (min-width:50px)and(max-width:673px){
+            .main-content{
+                grid-template-columns: repeat(1,1fr);
+            }
+        }
+        
+
+        .left-section {
+            background-color: bisque;
+        }
+
+        .right-section {
+            background-color: oldlace;
+        }
+
+        .left-content {
+            padding: 1rem;
+
+
+        }
+
+        .profile-img {
+            display: block;
+            margin: auto;
+            border: 5px solid white;
+            border-radius: 30%;
+            width: 60%;
+        }
+
+        .name {
+            font-size: 1.2rem;
+            font-weight: 700;
+            padding: 0.8rem;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 0.02px;
+        }
+
+        .designation {
+            font-size: 1rem;
+            text-align: center;
+            padding-bottom: 0.5em;
+        }
+
+        .description {
+            font-size: 0.75em;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .icon {
+            padding: 5px;
+            padding-left: 50px;
+            image-resolution: 10;
+            display: inline;
+            align-items: center;
+
+
+        }
+        .social-media {
+            margin: 15px;
+        }
+        .fa {
+            font-size: 27px;
+            text-decoration: none;
+        }
+        .skills {
+            font-size: 0.75em;
+            text-align: center;
+            text-transform: uppercase;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+        }
+        .skill-name {
+            font-size: 0.65rem;
+            font-size: 0.65rem;
+            text-align: left;
+            padding-bottom: 0.5rem;
+        }
+        .progress-bar {
+            border: 1px solid white;
+            height: 4px;
+        }
+        .right-main-content{
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+        .right-title{
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            font-weight: 700;
+            padding: 0.5rem;
+            letter-spacing: 1px;
+        }
+        .para {
+            padding: 2px;
+            font-size: 20px;
+        }
+        .list{
+            padding: 30px;
+            padding-top: 2px;
+            font-size: 20px;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <main class="main-content">
+        <section class="left-section">
+            <div class="left-content">
+                <div class="profile-details">
+                    <div class="picture"><img class="profile-img"
+                            src="D:\Users\Public\Pictures\Sample Pictures\Koala.jpg" /></div>
+                    <div class="name">
+                        <h2> Rinky Maurya</h2>
+                    </div>
+                    <div class="designation">
+                        <h4> SDE</h4>
+                    </div>
+                    <hr>
+                    <div class="description">
+                        <p> Full-Stack Developer</p>
+                    </div>
+                    <div class="social-media">
+                        <li class="icon"><a href="https://www.linkedin.com/in/rinky-maurya-7913441b5/"
+                                class="fa fa-linkedin"></a></li>
+                        <li class="icon"><a href="https://github.com/Rinky6767" class="fa fa-github"> </a></li>
+                    </div>
+                    <div class="skills-start">
+                        <div class="skills">
+                            <h2> Skills</h2>
+                        </div>
+                        <div class="skill-name">
+                            <h3>HTML</h3>
+                        </div>
+                        <div class="progress-bar" style="width:80%"> </div>
+
+                        <div class="skill-name">
+                            <h3>JavaScript</h3>
+                        </div>
+                        <div class="progress-bar" style="width:50%"> </div>
+
+                        <div class="skill-name">
+                            <h3>JAVA</h3>
+                        </div>
+                        <div class="progress-bar" style="width:80%"> </div>
+
+                        <div class="skill-name">
+                            <h3>SQL</h3>
+                        </div>
+                        <div class="progress-bar" style="width:80%"> </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+
+        <section class="right-section">
+            <div class="right-main-content">
+            <section class="about-sec">
+             <h2 class="right-title">About me</h2>  
+             <p class="para">I am a Computer Science Student pursing my graduation, along with it I am also doing Full-stack development course from Newton School they have really great instructors and mentors who teaches very deeply and nicely. I am very happy to laern about full-stack through netwon school. I like doing programming in Java Language which have huge collections of libarires and a great support for mulithreading.</p> 
+            </section>
+            <section class="edu sec">
+                <h2 class="right-title">Education</h2>
+                <p class="para"> 
+                    <ol class="list">
+                        <li> SSC: </li>
+                        <ul>
+                            <li>Board: Maharashtra Board </li>
+                            <li> Percentage: 70.00</li>
+                        </ul>
+                        <li> HSC:</li>
+                        <ul>
+                            <li>Board: University of Mumabi.</li>
+                            <li> Percentage: 75.00</li>
+                        </ul>
+                        <li> Computer Science(B.Sc.(I.T)):</li>
+                        <ul>
+                            <li>Board: University of Mumabi.</li>
+                            <li> Pursing</li>
+                        </ul>
+                    </ol>
+                </p>
+            </section>
+            <section class="ex sec">
+                <h2 class="right-title">Experience</h2>
+                <p class="para">
+                  I don't have any kind of experience since have not worked yet with any organization.
+                </p>
+            </section>
+            </div>
+        </section>
+    </main>
+
+
+</body>
+
+</html>
